@@ -17,12 +17,12 @@ const QuoteBox = () => {
 			<div id='text'>{quote.content}</div>
 			<div id='author'>{quote.author}</div>
 			<div id='col1'>
-				<a id='tweet-quote' class='bttn-bordered bttn-xs bttn-default'>
+				<a id='tweet-quote' className='bttn-bordered bttn-xs bttn-default'>
 					Tweet It!
 				</a>
 				<button
 					id='new-quote'
-					class='bttn-bordered bttn-xs bttn-default'
+					className='bttn-bordered bttn-xs bttn-default'
 					onClick={getQuote}
 				>
 					New Quote
